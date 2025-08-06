@@ -1,0 +1,33 @@
+body {
+  margin: 20px;
+  width: 250px;
+}
+
+.btn {
+  margin-left: 8px;
+  border-radius: 5px;
+  border: solid gray;
+}
+
+.input {
+  border: solid green;
+  border-radius: 5px;
+}
+
+/* .deleteContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+li {
+  margin: 5px 0;
+}
+
+.ulClass {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
