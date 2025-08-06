@@ -25,19 +25,24 @@ const render = () => {
       const newListData = listData.filter((el, i) => {
         return i !== index;
       });
-      listData = newListData;
+      listData = newListData; // <=====
       render();
     });
     li.innerText = element;
     // ul.appendChild(div);
-    ul.appendChild(li);
     li.appendChild(deleteButton);
-    deleteButton.addEventListener("click", () => {});
+    ul.appendChild(li);
   });
 };
 
 function printInputValue(value) {
   listData.push(value);
+  // const li = document.createElement("li");
+  // li.innerText = value;
+  // ul.appendChild(li);
+  // li.addEventListener("click", () => {
+  //   li.remove();
+  // });
 }
 
 button.addEventListener("click", () => {
