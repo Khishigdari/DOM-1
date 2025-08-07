@@ -4,7 +4,7 @@ body {
 }
 
 .btn {
-  margin-left: 8px;
+  margin-left: 30px;
   border-radius: 5px;
   border: solid gray;
 }
@@ -24,10 +24,27 @@ body {
 
 li {
   /* margin: 5px 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+/* li::before {
+  .material-symbols-outline {
+    display: block;
+  }
+} */
 
 .ulClass {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0;
 }
+
+/* .iconButton {
+  padding: 1px 6px;
+} */
+
+/* .material-symbols-outlined {
+} */
